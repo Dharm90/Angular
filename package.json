@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",    
     "lint": "ng lint",
+    "test-once": "ng test --watch=false",
     "e2e": "ng e2e"
   },
   "private": true,
