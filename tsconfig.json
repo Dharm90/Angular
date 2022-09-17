@@ -12,6 +12,10 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
+      "angular-lib": [
+        "dist/angular-lib/angular-lib",
+        "dist/angular-lib"
+      ],
       "my-lib": [
         "docs/my-lib/my-lib",
         "docs/my-lib"
