@@ -10,6 +10,7 @@
     "lint": "ng lint",
     "test-once": "ng test --watch=false",
     "test-my-lib": "ng test angular-lib --watch=false",
+    "npm pack": "npm pack ../../dist/angular-lib",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -48,8 +49,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.7.0",
-    "ng-packagr": "^12.0.0",
-    "puppeteer": "^17.1.3",
+   "puppeteer": "^17.1.3",
     "typescript": "~4.2.3"
   }
 }
