@@ -9,11 +9,11 @@ Run `ng generate component component-name --project my-lib` to generate a new co
 
 ## Build
 
-Run `ng build my-lib` to build the project. The build artifacts will be stored in the `docs/` directory.
+Run `ng build my-lib` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build my-lib`, go to the docs folder `cd docs/my-lib` and run `npm publish`.
+After building your library with `ng build my-lib`, go to the dist folder `cd dist/my-lib` and run `npm publish`.
 
 ## Running unit tests
 

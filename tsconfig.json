@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./docs/out-tsc",
+    "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
@@ -17,8 +17,8 @@
         "dist/angular-lib"
       ],
       "my-lib": [
-        "docs/my-lib/my-lib",
-        "docs/my-lib"
+        "dist/my-lib/my-lib",
+        "dist/my-lib"
       ]
     },
     "experimentalDecorators": true,
